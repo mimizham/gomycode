@@ -4,7 +4,7 @@ var connect = () => {
     mdp = document.getElementById('pass').value;
 
     if (email == 'contact@google.com' && mdp == '123456')
-        alert("Connecté");
+       document.location.href="/home.html";
     else
     alert("User ou mot de passe incorrect");
 };
